@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="itcast0907crmCache">
+    <wb-module deploy-name="wu_homework">
         <wb-resource deploy-path="/" source-path="/WebRoot"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="/itcast0907crmCache"/>
-        <property name="java-output-path" value="/itcast0907crmCache/WebRoot/WEB-INF/classes"/>
+        <property name="java-output-path" value="/wu_homework/WebRoot/WEB-INF/classes"/>
+        <property name="context-root" value="/wu_homework"/>
     </wb-module>
 </project-modules>
