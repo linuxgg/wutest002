@@ -1,0 +1,6 @@
+.git
+/WebRoot/temp/*
+/WebRoot/WEB-INF/classes/*
+.myumldata
+
+.mymetadata

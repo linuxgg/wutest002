@@ -19,6 +19,8 @@ public class TestSysUserGroupDao {
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("beans.xml");
 		ISysUserGroupDao sysUserGroupDao = (ISysUserGroupDao) ctx.getBean(ISysUserGroupDao.SERVICE_NAME);
 		SysUserGroup sysUserGroup = new SysUserGroup();
+	 
+		
 		sysUserGroup.setName("销售部");
 		sysUserGroup.setPrincipal("xxx");
 		sysUserGroup.setIncumbent("ttt");
@@ -29,7 +31,7 @@ public class TestSysUserGroupDao {
 	public void testUpdate() {
 		ISysUserGroupDao sysUserGroupDao =(ISysUserGroupDao)ServiceProvinder.getService(ISysUserGroupDao.SERVICE_NAME);
 		SysUserGroup sysUserGroup = new SysUserGroup();
-		sysUserGroup.setId(1);
+		sysUserGroup.setId(25);
 		sysUserGroup.setName("销售部01");
 		sysUserGroup.setPrincipal("tom");
 		sysUserGroup.setIncumbent("销售部");

@@ -47,7 +47,7 @@
 		org.hibernate.dialect.MySQLDialect
 	</property>
 
-	<mapping resource="cn/itcast/crm/domain/SysUserGroup.hbm.xml" />
+	 
 	<mapping resource="cn/itcast/crm/domain/SysUserGroup.hbm.xml" />
 	<mapping resource="cn/itcast/crm/domain/SysRole.hbm.xml" />
 	<mapping resource="cn/itcast/crm/domain/SysUser.hbm.xml" />
