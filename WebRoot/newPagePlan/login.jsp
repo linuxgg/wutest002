@@ -113,7 +113,7 @@ body {
 	</TD>
 </TR>
 <TR>
-	<TD align="center"><br><a href="http://www.itcast.cn" target="_blank">北京传智播客教育科技有限公司</a></TD>
+	<TD align="center"><br><a href="http://www.itcast.cn" target="_blank">admin/123456</a></TD>
 </TR>
 <TR>
 	<TD height="5">&nbsp;</TD>

@@ -61,8 +61,7 @@
 					<ul>
 						           <li><img src="${pageContext.request.contextPath}/ui/images/menu/khflfx.png" width="17" height="17">
 						           <a href="${pageContext.request.contextPath}/report/khflfx.jsp" target="rightFrame">客户分类分析 </a></li>
-						           <li><img src="${pageContext.request.contextPath}/ui/images/menu/khgjfx.png" width="17" height="17">
-						           <a href="${pageContext.request.contextPath}/report/khflfx.jsp" target="rightFrame">客户分析 </a></li>
+						            
 					</ul>
 				 </li>
 		</ul>
