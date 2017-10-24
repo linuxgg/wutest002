@@ -20,7 +20,7 @@ public class TestSysUserGroupDao {
 		ISysUserGroupDao sysUserGroupDao = (ISysUserGroupDao) ctx.getBean(ISysUserGroupDao.SERVICE_NAME);
 		SysUserGroup sysUserGroup = new SysUserGroup();
 	 
-		
+		sysUserGroup.setId(25);
 		sysUserGroup.setName("销售部");
 		sysUserGroup.setPrincipal("xxx");
 		sysUserGroup.setIncumbent("ttt");

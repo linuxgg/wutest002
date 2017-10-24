@@ -6,9 +6,28 @@
 <link href="${pageContext.request.contextPath}/ui/css/style_cn.css" rel="stylesheet" type="text/css">
 <script src="${pageContext.request.contextPath}/ui/js/popshow.js" type="text/javascript"></script>
 <script type="text/javascript">
- function forward(strURL){
+function forward(strURL){
      window.location=strURL;
- }
+}
+
+//删除
+function deleteIds(){
+        document.forms[1].action="sysUserAction_delete.do";
+	    document.forms[1].submit();
+}
+
+//启用
+function  enable(){
+	document.forms[1].action="sysUserAction_enable.do";
+    document.forms[1].submit();
+}
+
+//停用
+function  disable(){
+	  document.forms[1].action="sysUserAction_disable.do";
+    document.forms[1].submit();
+}
+
 </script>
 </head>
 

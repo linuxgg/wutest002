@@ -22,8 +22,8 @@
    <!-- 2 配置数据源 -->
    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
 		<property name="driverClass" value="com.mysql.jdbc.Driver" />
-		<property name="jdbcUrl" value="jdbc:mysql://45.76.6.229:3306/wutest001?useUnicode=true&amp;characterEncoding=GBK"/>
-		<property name="user" value="wutest001" />
+		<property name="jdbcUrl" value="jdbc:mysql://qdm13567136.my3w.com:3306/qdm13567136_db?useUnicode=true&amp;characterEncoding=GBK"/>
+		<property name="user" value="qdm13567136" />
 		<property name="password" value="wutest001" />
 		<!--连接池中保留的最小连接数。-->
 		<property name="minPoolSize" value="5" />

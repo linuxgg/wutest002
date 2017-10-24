@@ -35,10 +35,8 @@
 	<!-- 启用查询缓存 -->
 	<property name="hibernate.cache.use_query_cache">true</property>
 	<property name="myeclipse.connection.profile">wutest001</property>
-	<property name="connection.url">
-		jdbc:mysql://45.76.6.229:3306/wutest001
-	</property>
-	<property name="connection.username">wutest001</property>
+	<property name="connection.url">jdbc:mysql://qdm13567136.my3w.com:3306/qdm13567136_db</property>
+	<property name="connection.username">qdm13567136</property>
 	<property name="connection.password">wutest001</property>
 	<property name="connection.driver_class">
 		com.mysql.jdbc.Driver
